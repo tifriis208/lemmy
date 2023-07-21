@@ -166,7 +166,6 @@ pub struct CommentQuery<'a> {
   pub search_term: Option<String>,
   pub saved_only: Option<bool>,
   pub is_profile_view: Option<bool>,
-  pub show_deleted_and_removed: Option<bool>,
   pub page: Option<i64>,
   pub limit: Option<i64>,
   pub max_depth: Option<i32>,
